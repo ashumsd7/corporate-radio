@@ -95,6 +95,8 @@ export const AmbientRain: React.FC<AmbientRainProps> = ({ isPlaying, volume = 0.
         }
       }
     };
+    // volume is applied separately so rain isn't rebuilt on every slider change
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isPlaying]);
 
   useEffect(() => {

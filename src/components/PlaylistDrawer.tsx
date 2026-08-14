@@ -153,7 +153,7 @@ export const PlaylistDrawer: React.FC<PlaylistDrawerProps> = ({
                         <p className="text-xs text-white/50 truncate">{song.artist}</p>
                         {song.quote && (
                           <p className="text-[11px] text-amber-200/70 italic truncate mt-0.5">
-                            "{song.quote}"
+                            &ldquo;{song.quote}&rdquo;
                           </p>
                         )}
                       </div>
