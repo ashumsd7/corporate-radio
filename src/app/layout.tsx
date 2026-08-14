@@ -33,7 +33,6 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Corporate Majdoor ka Baaja | Corporate Radio",
     description: "Soothing tracks for corporate majdoors to escape deadline stress.",
-    images: ["https://i.ibb.co/WWWc5S7C/radio.png"],
   },
 };
 
@@ -44,7 +43,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${yatraOne.variable} ${rozhaOne.variable} ${cinzel.variable} ${outfit.variable}`}>
-      <body className="font-outfit antialiased bg-black text-white select-none overflow-x-hidden">
+      <body className="font-outfit antialiased bg-[#cbb892] text-[#3b2716] select-none overflow-x-hidden">
         {children}
       </body>
     </html>

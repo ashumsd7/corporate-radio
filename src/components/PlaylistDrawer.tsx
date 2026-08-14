@@ -68,10 +68,10 @@ export const PlaylistDrawer: React.FC<PlaylistDrawerProps> = ({
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-white tracking-wide">
-                    {language === 'hi' ? 'गानों की लिस्ट (Soothing Hindi)' : 'Playlist (Calm & Peace)'}
+                    {language === 'hi' ? 'धीमे हिंदी गाने' : 'Slow English songs'}
                   </h3>
                   <p className="text-xs text-white/60">
-                    {playlist.length} {language === 'hi' ? 'सुकून भरे गाने उपलब्ध हैं' : 'peaceful tracks available'}
+                    {playlist.length} {language === 'hi' ? 'सुकून भरे गाने' : 'soothing tracks'}
                   </p>
                 </div>
               </div>

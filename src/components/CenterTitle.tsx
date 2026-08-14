@@ -21,24 +21,22 @@ export const CenterTitle: React.FC<CenterTitleProps> = ({ language }) => {
             transition={{ duration: 0.5, ease: 'easeOut' }}
             className="flex flex-col items-center"
           >
-            {/* Retro Vintage Signboard Title (like Dealux Saloon / dealux saloon) */}
-            <div className="signboard-title flex flex-col items-center tracking-wide leading-none text-amber-50">
-              <span className="text-5xl sm:text-7xl md:text-8xl font-black drop-shadow-[0_8px_16px_rgba(0,0,0,0.9)] bg-clip-text text-transparent bg-gradient-to-b from-amber-100 via-amber-200 to-amber-400">
+            <div className="signboard-title flex flex-col items-center tracking-wide leading-none text-[#3b2716]">
+              <span className="text-5xl sm:text-7xl md:text-8xl font-black">
                 कॉर्पोरेट
               </span>
-              <span className="text-4xl sm:text-6xl md:text-7xl font-black mt-1 sm:mt-3 drop-shadow-[0_8px_16px_rgba(0,0,0,0.9)] text-white">
+              <span className="text-4xl sm:text-6xl md:text-7xl font-black mt-1 sm:mt-3 text-[#6b3a1f]">
                 मजदूर का बाजा
               </span>
             </div>
 
-            {/* Subtitle tag */}
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.3 }}
-              className="mt-4 sm:mt-6 px-4 py-1.5 rounded-full bg-black/40 backdrop-blur-md border border-amber-500/30 text-amber-200/90 text-xs sm:text-sm font-medium tracking-wide shadow-2xl"
+              className="mt-4 sm:mt-6 px-4 py-1.5 rounded-full khaki-pill text-[#4a341f] text-xs sm:text-sm font-medium tracking-wide shadow-sm"
             >
-              ओवरटाइम और डेडलाइन से राहत का इकलौता ठिकाना ☕✨
+              ओवरटाइम और डेडलाइन से राहत का इकलौता ठिकाना ☕
             </motion.div>
           </motion.div>
         ) : (
@@ -50,24 +48,22 @@ export const CenterTitle: React.FC<CenterTitleProps> = ({ language }) => {
             transition={{ duration: 0.5, ease: 'easeOut' }}
             className="flex flex-col items-center"
           >
-            {/* Sleek Retro English Title */}
             <div className="english-title flex flex-col items-center tracking-widest leading-none">
-              <span className="text-5xl sm:text-7xl md:text-8xl font-extrabold uppercase bg-clip-text text-transparent bg-gradient-to-b from-white via-slate-100 to-slate-300 drop-shadow-[0_10px_20px_rgba(0,0,0,0.9)]">
+              <span className="text-5xl sm:text-7xl md:text-8xl font-extrabold uppercase text-[#3b2716]">
                 Corporate
               </span>
-              <span className="text-4xl sm:text-6xl md:text-7xl font-bold mt-1 sm:mt-2 text-amber-400 tracking-wider drop-shadow-[0_8px_16px_rgba(0,0,0,0.9)]">
+              <span className="text-4xl sm:text-6xl md:text-7xl font-bold mt-1 sm:mt-2 text-[#8a4b22] tracking-wider">
                 Radio
               </span>
             </div>
 
-            {/* English Subtitle Tag */}
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.3 }}
-              className="mt-4 sm:mt-6 px-4 py-1.5 rounded-full bg-black/40 backdrop-blur-md border border-white/20 text-slate-200 text-xs sm:text-sm font-medium tracking-wider shadow-2xl"
+              className="mt-4 sm:mt-6 px-4 py-1.5 rounded-full khaki-pill text-[#4a341f] text-xs sm:text-sm font-medium tracking-wider shadow-sm"
             >
-              Soothing Beats for Overworked Souls 📻 🎧
+              Soothing beats for overworked souls 📻
             </motion.div>
           </motion.div>
         )}

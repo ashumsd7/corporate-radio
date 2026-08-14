@@ -15,30 +15,54 @@
   }
 }
 
-/* Shop signboard text effect like saloon.wtf */
+.khaki-stage {
+  background-color: #cbb892;
+  background-image:
+    radial-gradient(rgba(92, 70, 38, 0.12) 1.1px, transparent 1.1px),
+    repeating-linear-gradient(
+      45deg,
+      rgba(74, 54, 28, 0.05) 0 2px,
+      transparent 2px 16px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      rgba(74, 54, 28, 0.04) 0 1px,
+      transparent 1px 18px
+    );
+  background-size: 18px 18px, 100% 100%, 100% 100%;
+}
+
+.khaki-stage::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse at 18% 12%, rgba(255, 244, 214, 0.28), transparent 42%),
+    radial-gradient(ellipse at 82% 88%, rgba(90, 64, 32, 0.16), transparent 46%);
+}
+
 .signboard-title {
   font-family: var(--font-yatra), var(--font-rozha), serif;
-  text-shadow: 
-    0 2px 4px rgba(0, 0, 0, 0.8),
-    0 10px 25px rgba(0, 0, 0, 0.9),
-    0 0 30px rgba(255, 255, 255, 0.3);
+  text-shadow:
+    0 1px 0 rgba(255, 244, 220, 0.55),
+    0 8px 18px rgba(80, 50, 20, 0.18);
   letter-spacing: 0.02em;
 }
 
 .english-title {
   font-family: var(--font-cinzel), serif;
-  text-shadow: 
-    0 4px 10px rgba(0, 0, 0, 0.9),
-    0 0 35px rgba(255, 220, 180, 0.4);
+  text-shadow:
+    0 1px 0 rgba(255, 244, 220, 0.5),
+    0 8px 18px rgba(80, 50, 20, 0.16);
 }
 
-/* Glassmorphism styling */
 .glass-panel {
-  background: rgba(18, 18, 22, 0.65);
+  background: rgba(28, 22, 16, 0.78);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border: 1px solid rgba(255, 255, 255, 0.12);
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 20px 50px rgba(40, 28, 12, 0.28);
 }
 
 .glass-pill {
@@ -53,7 +77,18 @@
   border-color: rgba(255, 255, 255, 0.3);
 }
 
-/* Vinyl rotation animation */
+.khaki-pill {
+  background: rgba(255, 248, 230, 0.48);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(90, 64, 32, 0.16);
+}
+
+.khaki-pill:hover {
+  background: rgba(255, 248, 230, 0.72);
+  border-color: rgba(90, 64, 32, 0.28);
+}
+
 @keyframes spinSlow {
   from {
     transform: rotate(0deg);
@@ -71,7 +106,6 @@
   animation-play-state: paused;
 }
 
-/* Text Marquee animation */
 @keyframes marquee {
   0% { transform: translateX(0%); }
   100% { transform: translateX(-50%); }
@@ -83,7 +117,6 @@
   animation: marquee 15s linear infinite;
 }
 
-/* Custom Scrollbar for Playlist Drawer */
 ::-webkit-scrollbar {
   width: 6px;
 }

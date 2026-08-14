@@ -5,9 +5,8 @@ export interface Song {
   title: string;
   artist: string;
   albumArt: string;
-  audioUrl: string;
-  youtubeId?: string;
-  duration: number; // in seconds
+  youtubeId: string;
+  duration: number;
   language: Language;
   genre: string;
   quote?: string;
