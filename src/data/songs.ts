@@ -1,0 +1,371 @@
+import { Song } from '@/types/audio';
+
+export const HINDI_SONGS: Song[] = [
+  {
+    id: 'hi-1',
+    title: 'Mujhse Mohabbat Ka Izhaar Karta',
+    artist: 'Satrang Music Official',
+    albumArt: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=500&q=80',
+    audioUrl: 'https://cdn.pixabay.com/download/audio/2022/05/27/audio_1808fbf07a.mp3?filename=lofi-study-112191.mp3',
+    youtubeId: '47dM4tJ1I7A',
+    duration: 304,
+    language: 'hi',
+    genre: 'Soothing Hindi Acoustic',
+    quote: 'चाय की चुस्की और पुरानी यादें ☕'
+  },
+  {
+    id: 'hi-2',
+    title: 'Kesariya - Acoustic Chill',
+    artist: 'Corporate Majdoor Session',
+    albumArt: 'https://images.unsplash.com/photo-1518609878373-06d740f60d8b?w=500&q=80',
+    audioUrl: 'https://cdn.pixabay.com/download/audio/2022/01/18/audio_d0a13f69d2.mp3?filename=sweet-lofi-10499.mp3',
+    youtubeId: 'BddP6PYo2gs',
+    duration: 268,
+    language: 'hi',
+    genre: 'Unplugged Hindi',
+    quote: 'Overtime की थकान मिटाओ...'
+  },
+  {
+    id: 'hi-3',
+    title: 'Tum Se Hi - Ambient Rain Mix',
+    artist: 'Midnight Chai Radio',
+    albumArt: 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=500&q=80',
+    audioUrl: 'https://cdn.pixabay.com/download/audio/2022/03/15/audio_c8c8a731ef.mp3?filename=lofi-chill-medium-version-10903.mp3',
+    youtubeId: 'V9Dlh4l1jL8',
+    duration: 312,
+    language: 'hi',
+    genre: 'Rainy Day Acoustic',
+    quote: 'बॉस का मेल कल देखेंगे, अभी सुनो 🌧️'
+  },
+  {
+    id: 'hi-4',
+    title: 'Phaasle - Retro Lo-Fi',
+    artist: 'Aditya A Cover',
+    albumArt: 'https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=500&q=80',
+    audioUrl: 'https://cdn.pixabay.com/download/audio/2023/02/28/audio_c41188147d.mp3?filename=soft-lofi-beat-140728.mp3',
+    youtubeId: 'e86j5X-j6J4',
+    duration: 245,
+    language: 'hi',
+    genre: 'Indie Hindi Chill',
+    quote: 'Weekend बस आने ही वाला है ✨'
+  },
+  {
+    id: 'hi-5',
+    title: 'Choo Lo - Late Night Acoustic',
+    artist: 'The Local Train Tribute',
+    albumArt: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=500&q=80',
+    audioUrl: 'https://cdn.pixabay.com/download/audio/2022/10/14/audio_993f4e3c54.mp3?filename=relaxing-chill-out-music-123481.mp3',
+    youtubeId: 'v8A85j4a9vU',
+    duration: 235,
+    language: 'hi',
+    genre: 'Hindi Rock Ballad',
+    quote: 'सपनों की खातिर जाग रहे हो...'
+  },
+  {
+    id: 'hi-6',
+    title: 'Baarishein - Sunset Edition',
+    artist: 'Anuv Jain Vibes',
+    albumArt: 'https://images.unsplash.com/photo-1465847899084-d164df4dedc6?w=500&q=80',
+    audioUrl: 'https://cdn.pixabay.com/download/audio/2022/11/06/audio_2c92e10695.mp3?filename=lofi-acoustic-guitar-126284.mp3',
+    youtubeId: 'dZ0fwJojhrs',
+    duration: 210,
+    language: 'hi',
+    genre: 'Soft Ukulele / Guitar',
+    quote: 'कॉर्पोरेट की दुनिया में थोड़ा सुकून ☕'
+  },
+  {
+    id: 'hi-7',
+    title: 'Aaoge Tum Kabhi - Ambient Remaster',
+    artist: 'Local Train Peace',
+    albumArt: 'https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=500&q=80',
+    audioUrl: 'https://cdn.pixabay.com/download/audio/2022/01/26/audio_d0c6fb0c49.mp3?filename=chill-abstract-intention-12099.mp3',
+    youtubeId: 'W3_nB2e8r9s',
+    duration: 310,
+    language: 'hi',
+    genre: 'Dreamy Acoustic',
+    quote: 'अकेले में ये धुन राहत देगी ❤️'
+  },
+  {
+    id: 'hi-8',
+    title: 'Kahani Suno - Slowed & Reverb',
+    artist: 'Kaifi Khalil Ambient',
+    albumArt: 'https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=500&q=80',
+    audioUrl: 'https://cdn.pixabay.com/download/audio/2022/05/16/audio_c0c4e12e10.mp3?filename=lofi-chill-hip-hop-beat-111166.mp3',
+    youtubeId: '_XbW7p8F1oM',
+    duration: 198,
+    language: 'hi',
+    genre: 'Slowed Hindi',
+    quote: 'दिल का दर्द भी अब मीठा लगता है...'
+  },
+  {
+    id: 'hi-9',
+    title: 'Ghar - Acoustic Serenade',
+    artist: 'Bharat Chauhan Acoustic',
+    albumArt: 'https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?w=500&q=80',
+    audioUrl: 'https://cdn.pixabay.com/download/audio/2022/08/02/audio_884b2c1f92.mp3?filename=lofi-vintage-vibes-117565.mp3',
+    youtubeId: 'B-d3j1u4K1E',
+    duration: 255,
+    language: 'hi',
+    genre: 'Hindi Folk Acoustic',
+    quote: 'घर जाने का मन करता है न?'
+  },
+  {
+    id: 'hi-10',
+    title: 'Pasoori - Soft Piano Ballad',
+    artist: 'Coke Studio Chillouts',
+    albumArt: 'https://images.unsplash.com/photo-1499415479124-43c32433a620?w=500&q=80',
+    audioUrl: 'https://cdn.pixabay.com/download/audio/2023/03/18/audio_651a0ff694.mp3?filename=calm-peaceful-lofi-142828.mp3',
+    youtubeId: '5Eqb_-j3FDA',
+    duration: 280,
+    language: 'hi',
+    genre: 'Piano Instrumental',
+    quote: 'गुज़र जाएगा ये हफ़्ता भी 🕊️'
+  },
+  {
+    id: 'hi-11',
+    title: 'Liggi - Midnight Cafe Mix',
+    artist: 'Ritviz Soft Edit',
+    albumArt: 'https://images.unsplash.com/photo-1526478806334-5fd488fcaabc?w=500&q=80',
+    audioUrl: 'https://cdn.pixabay.com/download/audio/2022/10/25/audio_34b3e6488d.mp3?filename=cozy-night-lofi-124976.mp3',
+    youtubeId: 'P_jKkXG2b8s',
+    duration: 215,
+    language: 'hi',
+    genre: 'Electronic Chill',
+    quote: 'काम बंद, दिमाग शांत 🎧'
+  },
+  {
+    id: 'hi-12',
+    title: 'Kadam - Motivation Lo-Fi',
+    artist: 'Prateek Kuhad Vibes',
+    albumArt: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=500&q=80',
+    audioUrl: 'https://cdn.pixabay.com/download/audio/2022/03/24/audio_3702e5b026.mp3?filename=study-lofi-beats-110011.mp3',
+    youtubeId: 'g7_d0jJ7M4k',
+    duration: 240,
+    language: 'hi',
+    genre: 'Acoustic Folk',
+    quote: 'एक कदम और आगे बढ़ाओ...'
+  },
+  {
+    id: 'hi-13',
+    title: 'Cold/Mess - Soft Strings',
+    artist: 'Overworked Engineer Band',
+    albumArt: 'https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=500&q=80',
+    audioUrl: 'https://cdn.pixabay.com/download/audio/2022/04/27/audio_c6f2a24fa6.mp3?filename=sunset-vibes-lofi-111585.mp3',
+    youtubeId: '6X_bB8j7t3M',
+    duration: 290,
+    language: 'hi',
+    genre: 'Indie Acoustic',
+    quote: 'अकेले बैठ कर चाय पीना अलग ही सुकून देता है'
+  },
+  {
+    id: 'hi-14',
+    title: 'Kasoor - Acoustic Re-imagined',
+    artist: 'Prateek Kuhad Chill',
+    albumArt: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=500&q=80',
+    audioUrl: 'https://cdn.pixabay.com/download/audio/2023/01/10/audio_b7e923e421.mp3?filename=ambient-lofi-peace-134950.mp3',
+    youtubeId: 'S0Q4mVMb-dM',
+    duration: 195,
+    language: 'hi',
+    genre: 'Hindi Acoustic',
+    quote: 'सब ठीक हो जाएगा भाई ❤️'
+  },
+  {
+    id: 'hi-15',
+    title: 'Samjho Na - Late Night Coffee',
+    artist: 'Aditya Rikhari Chillouts',
+    albumArt: 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=500&q=80',
+    audioUrl: 'https://cdn.pixabay.com/download/audio/2022/05/20/audio_7314227161.mp3?filename=late-night-lofi-111812.mp3',
+    youtubeId: 'T8xJ8a3g21o',
+    duration: 220,
+    language: 'hi',
+    genre: 'Slow Acoustic',
+    quote: 'कॉर्पोरेट मजदूर की आखरी उम्मीद 🌟'
+  }
+];
+
+export const ENGLISH_SONGS: Song[] = [
+  {
+    id: 'en-1',
+    title: 'Midnight Coffee & Deadline',
+    artist: 'Lo-Fi Chill Hop Beats',
+    albumArt: 'https://images.unsplash.com/photo-1501386761578-eac5c94b800a?w=500&q=80',
+    audioUrl: 'https://cdn.pixabay.com/download/audio/2022/05/27/audio_1808fbf07a.mp3?filename=lofi-study-112191.mp3',
+    youtubeId: 'jfKfPfyJRdk',
+    duration: 215,
+    language: 'en',
+    genre: 'Lo-Fi Chill Beats',
+    quote: 'Close Jira, open your mind ☕'
+  },
+  {
+    id: 'en-2',
+    title: 'Peaceful Corporate Escape',
+    artist: 'Acoustic Ambient Waves',
+    albumArt: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=500&q=80',
+    audioUrl: 'https://cdn.pixabay.com/download/audio/2022/01/18/audio_d0a13f69d2.mp3?filename=sweet-lofi-10499.mp3',
+    youtubeId: '5qap5aO4i9A',
+    duration: 250,
+    language: 'en',
+    genre: 'Acoustic Peace',
+    quote: 'Out of office status: ACTIVATED 🌿'
+  },
+  {
+    id: 'en-3',
+    title: 'Rainy Afternoon in Tokyo',
+    artist: 'Study Beats Collective',
+    albumArt: 'https://images.unsplash.com/photo-1515694346937-94d85e41e6f0?w=500&q=80',
+    audioUrl: 'https://cdn.pixabay.com/download/audio/2022/03/15/audio_c8c8a731ef.mp3?filename=lofi-chill-medium-version-10903.mp3',
+    youtubeId: 'DWcJFNfaw9c',
+    duration: 198,
+    language: 'en',
+    genre: 'Ambient Rain Lo-Fi',
+    quote: 'Breathe in peace, exhale tension 🌧️'
+  },
+  {
+    id: 'en-4',
+    title: 'Late Night Coding Sessions',
+    artist: 'Synthwave Soft Dreams',
+    albumArt: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=500&q=80',
+    audioUrl: 'https://cdn.pixabay.com/download/audio/2023/02/28/audio_c41188147d.mp3?filename=soft-lofi-beat-140728.mp3',
+    youtubeId: 'rUxyKA_-grg',
+    duration: 240,
+    language: 'en',
+    genre: 'Chillhop / Jazzhop',
+    quote: 'Bug fixed or not, you did your best 💻'
+  },
+  {
+    id: 'en-5',
+    title: 'Stargazing at 3 AM',
+    artist: 'Celestial Soundscapes',
+    albumArt: 'https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?w=500&q=80',
+    audioUrl: 'https://cdn.pixabay.com/download/audio/2022/10/14/audio_993f4e3c54.mp3?filename=relaxing-chill-out-music-123481.mp3',
+    youtubeId: 'lTRiuFIWV54',
+    duration: 275,
+    language: 'en',
+    genre: 'Dream Ambient',
+    quote: 'The universe doesn’t care about Slack notifications ✨'
+  },
+  {
+    id: 'en-6',
+    title: 'Coffee Shop Horizon',
+    artist: 'Jazz Hop Cafe',
+    albumArt: 'https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=500&q=80',
+    audioUrl: 'https://cdn.pixabay.com/download/audio/2022/11/06/audio_2c92e10695.mp3?filename=lofi-acoustic-guitar-126284.mp3',
+    youtubeId: 'TURbeWK2wwg',
+    duration: 210,
+    language: 'en',
+    genre: 'Warm Jazzhop',
+    quote: 'One more cup of warm coffee ☕'
+  },
+  {
+    id: 'en-7',
+    title: 'Sunlight Through Office Window',
+    artist: 'Indie Folk Solitude',
+    albumArt: 'https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=500&q=80',
+    audioUrl: 'https://cdn.pixabay.com/download/audio/2022/01/26/audio_d0c6fb0c49.mp3?filename=chill-abstract-intention-12099.mp3',
+    youtubeId: 'MCktF3Xh5l8',
+    duration: 230,
+    language: 'en',
+    genre: 'Acoustic Guitar',
+    quote: 'Nature is waiting outside 🍃'
+  },
+  {
+    id: 'en-8',
+    title: 'Subway Ride Back Home',
+    artist: 'Urban Night Beats',
+    albumArt: 'https://images.unsplash.com/photo-1517649763962-0c623266010b?w=500&q=80',
+    audioUrl: 'https://cdn.pixabay.com/download/audio/2022/05/16/audio_c0c4e12e10.mp3?filename=lofi-chill-hip-hop-beat-111166.mp3',
+    youtubeId: '81W9v04_UfE',
+    duration: 220,
+    language: 'en',
+    genre: 'Lo-Fi Chill',
+    quote: 'Headphones on, world off 🎧'
+  },
+  {
+    id: 'en-9',
+    title: 'Weekend Whispers',
+    artist: 'Soft Piano Serenade',
+    albumArt: 'https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?w=500&q=80',
+    audioUrl: 'https://cdn.pixabay.com/download/audio/2022/08/02/audio_884b2c1f92.mp3?filename=lofi-vintage-vibes-117565.mp3',
+    youtubeId: 'W3q8Od5qJio',
+    duration: 260,
+    language: 'en',
+    genre: 'Solo Piano',
+    quote: 'Friday evening serenity 🕯️'
+  },
+  {
+    id: 'en-10',
+    title: 'Drifting on a Cloud',
+    artist: 'Deep Rest Ambient',
+    albumArt: 'https://images.unsplash.com/photo-1534447677768-be436bb09401?w=500&q=80',
+    audioUrl: 'https://cdn.pixabay.com/download/audio/2023/03/18/audio_651a0ff694.mp3?filename=calm-peaceful-lofi-142828.mp3',
+    youtubeId: '1z80S4nL3cI',
+    duration: 310,
+    language: 'en',
+    genre: 'Meditation Ambient',
+    quote: 'Unwind your muscles, drop your shoulders'
+  },
+  {
+    id: 'en-11',
+    title: 'Fading Fluorescent Lights',
+    artist: 'Chill Synth Experience',
+    albumArt: 'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=500&q=80',
+    audioUrl: 'https://cdn.pixabay.com/download/audio/2022/10/25/audio_34b3e6488d.mp3?filename=cozy-night-lofi-124976.mp3',
+    youtubeId: '7NOSDKb0HlU',
+    duration: 245,
+    language: 'en',
+    genre: 'Chillwave',
+    quote: 'Log off and reclaim your peace 🌇'
+  },
+  {
+    id: 'en-12',
+    title: 'Acoustic Fireplace Stories',
+    artist: 'Woodland Acoustics',
+    albumArt: 'https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?w=500&q=80',
+    audioUrl: 'https://cdn.pixabay.com/download/audio/2022/03/24/audio_3702e5b026.mp3?filename=study-lofi-beats-110011.mp3',
+    youtubeId: 'n61ULEU7QD0',
+    duration: 215,
+    language: 'en',
+    genre: 'Folk Acoustic',
+    quote: 'Warm tea & peaceful memories 🍵'
+  },
+  {
+    id: 'en-13',
+    title: 'Overtime Nostalgia',
+    artist: 'Vinyl Scratch Lo-Fi',
+    albumArt: 'https://images.unsplash.com/photo-1461360370896-922624d12aa1?w=500&q=80',
+    audioUrl: 'https://cdn.pixabay.com/download/audio/2022/04/27/audio_c6f2a24fa6.mp3?filename=sunset-vibes-lofi-111585.mp3',
+    youtubeId: 'tfBVp0n6wI8',
+    duration: 205,
+    language: 'en',
+    genre: 'Lo-Fi Jazz',
+    quote: 'Silence is the best melody 🌙'
+  },
+  {
+    id: 'en-14',
+    title: 'Soft Rain Against Glass',
+    artist: 'Nature & Piano Duo',
+    albumArt: 'https://images.unsplash.com/photo-1519692933481-e162a57d6721?w=500&q=80',
+    audioUrl: 'https://cdn.pixabay.com/download/audio/2023/01/10/audio_b7e923e421.mp3?filename=ambient-lofi-peace-134950.mp3',
+    youtubeId: 'lP26UCnoH9s',
+    duration: 285,
+    language: 'en',
+    genre: 'Rain & Piano',
+    quote: 'Let the rain wash away the stress 💧'
+  },
+  {
+    id: 'en-15',
+    title: 'The Great Resignation Dream',
+    artist: 'Freedom Symphony',
+    albumArt: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=500&q=80',
+    audioUrl: 'https://cdn.pixabay.com/download/audio/2022/05/20/audio_7314227161.mp3?filename=late-night-lofi-111812.mp3',
+    youtubeId: 'ND684aE8V4E',
+    duration: 230,
+    language: 'en',
+    genre: 'Uplifting Ambient',
+    quote: 'You are more than your job title 🏖️'
+  }
+];
+
+export function getPlaylist(lang: 'hi' | 'en'): Song[] {
+  return lang === 'hi' ? HINDI_SONGS : ENGLISH_SONGS;
+}
