@@ -39,6 +39,13 @@ export const PlaylistDrawer: React.FC<PlaylistDrawerProps> = ({
     return `${mins}:${secs < 10 ? '0' : ''}${secs}`;
   };
 
+  const copy =
+    language === 'hi'
+      ? { title: 'धीमे हिंदी गाने', count: 'सुकून भरे गाने', search: 'गाना या आर्टिस्ट खोजें...' }
+      : language === 'bho'
+        ? { title: 'भोजपुरी गाने', count: 'गाँव के सुकून', search: 'गाना या कलाकार खोजें...' }
+        : { title: 'Slow English songs', count: 'soothing tracks', search: 'Search title, artist or mood...' };
+
   return (
     <AnimatePresence>
       {isOpen && (
@@ -68,10 +75,10 @@ export const PlaylistDrawer: React.FC<PlaylistDrawerProps> = ({
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-white tracking-wide">
-                    {language === 'hi' ? 'धीमे हिंदी गाने' : 'Slow English songs'}
+                    {copy.title}
                   </h3>
                   <p className="text-xs text-white/60">
-                    {playlist.length} {language === 'hi' ? 'सुकून भरे गाने' : 'soothing tracks'}
+                    {playlist.length} {copy.count}
                   </p>
                 </div>
               </div>
@@ -90,7 +97,7 @@ export const PlaylistDrawer: React.FC<PlaylistDrawerProps> = ({
                 <Search className="w-4 h-4 absolute left-3.5 top-1/2 -translate-y-1/2 text-white/40" />
                 <input
                   type="text"
-                  placeholder={language === 'hi' ? 'गाना या आर्टिस्ट खोजें...' : 'Search title, artist or mood...'}
+                  placeholder={copy.search}
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
                   className="w-full bg-white/5 text-sm text-white placeholder-white/40 pl-10 pr-4 py-2 rounded-full border border-white/10 focus:outline-none focus:border-amber-400/60 transition-all"

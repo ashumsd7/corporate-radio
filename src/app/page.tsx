@@ -5,17 +5,17 @@ import { Header } from '@/components/Header';
 import { CenterTitle } from '@/components/CenterTitle';
 import { Player } from '@/components/Player';
 import { PlaylistDrawer } from '@/components/PlaylistDrawer';
-import { AmbientRain } from '@/components/AmbientRain';
+import { AmbientBed } from '@/components/AmbientBed';
 import { Footer } from '@/components/Footer';
 import { getPlaylist } from '@/data/songs';
-import { Language, Song } from '@/types/audio';
+import { AmbientKind, Language, Song } from '@/types/audio';
 
 export default function Home() {
   const [language, setLanguage] = useState<Language>('hi');
   const [currentSongIndex, setCurrentSongIndex] = useState(0);
   const [isPlaying, setIsPlaying] = useState(false);
   const [isPlaylistOpen, setIsPlaylistOpen] = useState(false);
-  const [isAmbientRainOn, setIsAmbientRainOn] = useState(false);
+  const [ambient, setAmbient] = useState<AmbientKind | null>(null);
 
   const activePlaylist = useMemo(() => getPlaylist(language), [language]);
   const currentSong = activePlaylist[currentSongIndex] || activePlaylist[0];
@@ -52,8 +52,8 @@ export default function Home() {
       <Header
         language={language}
         onLanguageChange={handleLanguageChange}
-        isAmbientRainOn={isAmbientRainOn}
-        onToggleAmbientRain={() => setIsAmbientRainOn((prev) => !prev)}
+        ambient={ambient}
+        onAmbientChange={setAmbient}
       />
 
       <CenterTitle language={language} />
@@ -78,7 +78,7 @@ export default function Home() {
         language={language}
       />
 
-      <AmbientRain isPlaying={isAmbientRainOn} volume={0.2} />
+      <AmbientBed kind={ambient} volume={0.2} />
       <Footer />
     </main>
   );

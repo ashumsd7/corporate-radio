@@ -202,7 +202,7 @@ export const Player: React.FC<PlayerProps> = ({
             type="button"
             onClick={onOpenPlaylist}
             className="relative flex-shrink-0 w-12 h-12 sm:w-14 sm:h-14 rounded-full overflow-hidden border border-white/20 shadow-md cursor-pointer group"
-            title={language === 'hi' ? 'प्लेलिस्ट खोलें' : 'Open playlist'}
+            title={language === 'en' ? 'Open playlist' : 'प्लेलिस्ट खोलें'}
           >
             <img
               src={currentSong.albumArt}

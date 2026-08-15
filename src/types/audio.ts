@@ -1,4 +1,6 @@
-export type Language = 'hi' | 'en';
+export type Language = 'hi' | 'en' | 'bho';
+
+export type AmbientKind = 'rain' | 'coffee' | 'air' | 'crowd';
 
 export interface Song {
   id: string;
